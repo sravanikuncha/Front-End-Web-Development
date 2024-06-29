@@ -6,4 +6,23 @@ local repository setting
 4)git config user.email 'emailname'
 5)git remote add origin url.git // here url is same as url which comes after repository gets created in rmeote .
 local containing link to rmeote repository
-6)git push -u origin branchname we are pushing here u is username origin means remote is origin and branchname self explanatory
+it can be https (where verification done by url), ssh (shh-agent)
+through ssh agent
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+SSH (secure shell protocol)
+-to connect to git we can do via SSH and update files or access git repositories
+we use the key to connect , which we generate called SSH keys where public and private keys gets generated and public key we need to keep in GT HUB
+
+- we can concept of passphrase extra layer on ssh key for protection
+  so whenever we use key we have to enter passphrase , if we dont want to use passphrase everytime we add it to ssh agent
+  find existing keys present or not
+  $ ls -al ~/.ssh
+  or else genrate using above
+
+  -adding to ssh-agent
+  first ssh-agent should be runnign done manually or wriet code in .bashrc or .profile so whenever bash opens these files run automatically
+  eval `ssh-agent` and then add after starting
+
+  6)git push -u origin branchname we are pushing here u is username origin means remote is origin and branchname self explanatory
+  7)now go and check in Remote repository that local branch/newly added code is pushed and clearly visible or not
