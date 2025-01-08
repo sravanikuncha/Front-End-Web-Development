@@ -1,0 +1,12 @@
+.center {
+  text-align: center;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+
+.offcanvas-modal-footer{
+	justify-content: flex-start !important;
+}

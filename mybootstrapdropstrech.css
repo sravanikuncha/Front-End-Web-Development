@@ -1,0 +1,41 @@
+.heading-div{
+	background-color: #8f8787;
+	height: 150px;
+	padding: 40px;
+}
+
+.firstdiv{
+	width: 80%;
+	margin: 5% 5% 5% 10%;
+	background-color: white;
+	box-shadow: 0px 0px 4px 3px lightgrey;
+}
+
+.image-style img{
+	width: 5rem;
+	height: 5rem;
+}
+
+.firstdiv-inner{
+	margin-left: 6%;
+}
+
+.card-img-overlay{
+	top:80% !important;
+	left: 40% !important;
+}
+
+.button-color{
+	color: white;
+	border:1px solid white;
+}
+
+.button-thirddiv{
+	position: relative;
+	left:40%;
+}
+
+.row{
+	width: 90%;
+	margin-left: 2%;
+}

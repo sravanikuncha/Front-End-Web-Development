@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Practice </title>
+</head>
+<body>
+	<form method="post">
+	<div>
+		<div>
+			<label for="username"><b>Username</b></label>
+		</div>
+		<input type="text" id="username" required name="Username" value="sravanikuncha">
+	</div>
+
+	<div>
+		<div>
+			<label for="password">Password</label>
+		</div>
+		<input type="password" id="Password" name="secretPassWord" value="HelloProgram" >
+	</div>
+	
+	<div>
+		<label for="phone">Phone Number</label>
+		<br>
+		<input type="number" id="phone" name="phoneNumber" value="9949421597">
+	</div>
+
+	<div>
+		<label for="logintime">Time Enter of Login</label>
+		<br>
+		<input type="time" id="logintime" name="Time" >
+	</div>
+
+	<div>
+		<label for="mail">EmailID</label>
+		<br>
+		<input type="email" id="mail" placeholder="kunchasravani@gmail.com" name="mail ID" vakue="sravani.kuncha@accenture.com">
+	</div>
+
+	<div>
+		<label for="website">Websit want to open</label>
+		<br>
+		<input type="url" id="website" name="visitedurl" value="https://codingninjas.com">
+	</div>
+
+	<div>
+		<input type="range" min="1" max="10">
+	</div>
+
+	
+	<p>Gender</p>
+	<div>
+		<input type="radio" name="gender" value="Female"><label>Female</label><br>
+		<input type="radio" name="gender" value="Male"><label>Male</label><br>
+		<input type="radio" name="gender" checked value="Wish ot to Specify"><label>Wish Not to Specify</label>
+	</div>
+
+<!-- in checkbox teh purpose of name is different  unlike radio buttons -->
+	<p>Courses enrolled</p>
+	<div>
+		<input type="checkbox" name="course" value="Java"><label>JAVA</label><br>
+		<input type="checkbox" name="course" value="WebDevelopment"><label>WebDevellopment</label><br>
+		<input type="checkbox" name="course" value="DBMS"><label>DBMS</label>
+	</div>
+
+	<p>Year of passing</p>
+	<div>
+		<select name="yearselected" multiple>
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			<option selected>1994</option>
+		</select>
+	</div>
+
+	<p>Share your thoughts</p>
+	<div>
+		<textarea name="thoughts"></textarea>
+	</div>
+
+	<p>Buttons</p>
+	<div>
+		<input type="button" name="Button" value="Button1">
+		<br>
+	</div>
+
+
+	<div>
+		<button type="button" name="button2"> Button2</button>
+	</div>
+	<div>
+		<input type="submit">
+	</div>
+</div>
+</form>
+</body>
+</html>

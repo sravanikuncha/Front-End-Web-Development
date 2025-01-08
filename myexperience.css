@@ -1,0 +1,601 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.section-heading{
+    width: auto;
+    /*padding: 20px 10px 10px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*margin:10px auto;*/
+    /*auto means it calculates evenly left and right*/
+    font-weight: 400;
+}
+
+.section-heading span{
+    color: blue;
+    font-size: 40px;
+    display:inline-block;
+    margin-right: 0.5rem;
+}
+
+.mb75px{
+    margin-bottom: 75px;
+}
+
+.skills-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 75vh;*/
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skill-progress{
+    width:12rem;
+    height: 1.5rem;
+    background-color: grey;
+    border-radius: 1rem;
+    /*border:2px solid black;*/
+}
+
+.skill-progress>div{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.skill-name{
+    font-size: 70%;
+    margin-left: 5%;
+    color: white;
+}
+
+.eight-fivepercent{
+    width: 85%;
+    height: 100%;
+}
+
+.mb-blue{
+    background-color: blue;
+}
+
+.seventy-percent{
+    width: 70%;
+}
+
+.mb-green{
+    background-color: green;
+}
+
+.fifty-percent{
+    width: 50%;
+}
+
+.mb-yellow{
+    background-color: yellow;
+}
+
+.eight-percent{
+    width: 80%;
+}
+
+.ninety-fivepercent{
+    width: 90%;
+}
+
+.ten-percent{
+    width: 10%;
+}
+
+.mb-red{
+    background-color: red;
+}
+
+.mb30px{
+    margin-bottom: 30px;
+}
+
+.bs-style{
+    box-shadow: 1px 0px 2px  1px #b9b9b9;
+}
+
+.portfolilo-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;    
+    /*border: 1px solid black;*/
+}
+
+.portfolio-detail{
+    width: 15rem;
+    /*border:1px solid black;*/
+    height: 10rem;
+    position: relative;
+   /* background-size: contain;
+    background-repeat: no-repeat;*/
+}
+
+.image1-style{
+    /*background-image: url("portfolio1.png");*/
+    /*background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png");*/
+    /* background-size: contain;
+    background-repeat: no-repeat;*/
+    width: 100%;
+    height: 100%;
+}
+
+.image2-style{
+    /*background-image: url("portfolio2.png");*/
+    /*background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png");*/
+    /*  background-size: contain;
+    background-repeat: no-repeat;*/
+     width: 100%;
+    height: 100%;
+}
+
+.porfolio-text-style{
+    /*overflow: scroll;*/
+    padding: 10px;
+    overflow-wrap: break-word;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.porfolio-text-style>p{
+    font-size: 20px;
+    color: black;
+}
+
+.portfolio-detail:hover{
+    /*transform:scale(1.2,1.2);*/
+    opacity: 0.7;
+    box-shadow:0px 0px 5px 3px black;
+    background-color: lightgrey;
+}
+
+
+.portfolio-detail:hover .porfolio-text-style{
+    visibility: visible;
+    background-color: #80808078;
+    color: white;
+}
+
+
+#contact{
+    background: linear-gradient(90deg,#2857a4, #403066);
+}
+.contact-container{
+    width: 70%;
+    /*border:1px solid black;*/
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+}
+
+.contact-details-container{
+    width: 50%;
+    /*border-right: 1px solid black;*/
+    height: 100%;
+}
+
+.details{
+    width: 100%;
+    height: 100%;
+    /*border:1px solid black;*/
+}
+
+.details-style{
+    border-bottom:2px solid white;
+}
+
+.details-style>span{
+    color: white;
+    opacity: 0.2;
+    font-size: 18px;
+}
+
+.name-style{
+    height: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.message-style{
+    height: 30%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.contact-color{
+    color: white !important;
+}
+
+.message-details{
+    height: 30%;
+    position: relative;
+}
+.message{
+    position: absolute;
+    top:20px;
+    left: 30%;
+    border:2px solid white;
+    padding: 3px;
+   width: auto;
+}
+
+.message>span{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.contact-address-container{
+    width: 50%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.address-details h1{
+    color:white;
+    font-size: 20px;
+}
+
+.address-style{
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+
+
+/*experience CSS*/
+.experience-container{
+    width: 70%;
+    /*border:1px solid black;*/
+    position:relative;
+}
+
+
+.experience-detail{
+    width: 40%;
+    /*border:1px solid black;*/
+    margin-left: 5%;
+}
+
+.experience-detail:nth-child(2n){
+    margin-left: 53%;
+}
+
+
+.divider{
+    position: absolute;
+    left:50%;
+    top:10%;
+    width: 0%;
+    bottom:10%;
+    border:1px dashed blue;
+}
+
+.aeroplane{
+    position: sticky;
+    top:28%;
+    transform:rotate(90deg);
+}
+
+
+.experience-detail:nth-child(2n+1)::after{
+    content: '';
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 49.5%;
+    margin-top:-8%;
+}
+
+.experience-detail:nth-child(2n)::before{
+    content: '';
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 49.5%;
+    margin-top:5%;
+}
+
+.experience-Overall{
+    width:100%;
+    /*border:1px solid red;*/
+    height: 50%;
+    margin-bottom: -12%;
+    position: relative;
+}
+
+.experience-Overall::before{
+    content:'';
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+
+.cb{
+    margin-top: -5%;
+    color: blue;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1%;
+    margin-bottom: -4%;
+}
+
+.co{
+    color: orange;
+    font-size: 0.8rem;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1%;
+     margin-bottom: -3%;
+}
+
+.clightgrey{
+     color: lightgrey;
+    font-size: 0.8rem;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.experience-description{
+    width: 100%;
+    height: 50%;
+}
+
+.experience-desc-style{
+    overflow-wrap: break-word;
+    font-size:0.8rem;
+    padding-left: 5%;
+}
+
+
+
+/*education css*/
+/*i can use previous onebut want to write on my own */
+
+.education-container{
+    width: 70%;
+    /*border:1px solid black;*/
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.education-detail{
+    width: 40%;
+    height: 40%;
+    /*border:1px solid black;*/
+    margin-left: 3%;
+}
+
+.education-detail:nth-child(2n){
+    margin-left: 55%;
+}
+
+.education-divider{
+    position: absolute;
+    top:10%;
+    left:50%;
+    height: 80%;
+    width: 0%;
+    border:1px dashed blue;
+}
+
+
+.divider-icon{
+    position: sticky;
+    top:30%;
+    transform: rotate(90deg);
+}
+
+.education-detail::after{
+    content: '';
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-top: -10%;
+    left:49.5%;
+    background-color: grey;
+}
+
+.degree-detail{
+    width: 100%;
+    height: 50%;
+}
+
+.degree-detail::before{
+    content: '';
+    background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png');
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.eb{
+    color: blue;
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.eo{
+    color: orange;
+    font-size: 0.8rem;
+}
+
+.elightgrey{
+     color: grey;
+     font-size:0.8rem;
+}
+
+.common-style{
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: -10px;
+}   
+
+.degree-description{
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.degree-description-style{
+    overflow-wrap: break-word;
+    font-size: 0.8rem;
+}
+
